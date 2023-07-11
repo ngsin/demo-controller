@@ -3,6 +3,6 @@ kind: DemoAPI
 metadata:
   name: demoapi
 spec:
-    image: nginx
-    deploymentName: nginx
-    replicas: 9
+    image: redis
+    deploymentName: demoapi-deployment
+    replicas: 1
