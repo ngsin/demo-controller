@@ -1,0 +1,8 @@
+apiVersion: demogroup.k8s.io/v1alpha1
+kind: DemoAPI
+metadata:
+  name: demoapi
+spec:
+    image: nginx
+    deploymentName: nginx
+    replicas: 9
